@@ -115,11 +115,7 @@ $(document)
                                     regexp: /^[9][0-9]{8}$/,
                                     message: 'El teléfono debe ser numérico que empiece con 9'
                                 },
-                                remote: {
-                                    message: 'El teléfono ya existe',
-                                    url: 'validaTelefonolAlumnoServlet',
-                                    delay: 1000
-                                }
+                                
                              }
 						},
 						dni:{
@@ -132,11 +128,7 @@ $(document)
                                     regexp: /^[0-9]{8}$/,
                                     message: 'El DNI debe ser numérico de 8 dígitos'
                                 },
-                                remote: {
-                                    message: 'El DNI ya existe',
-                                    url: 'validaDNIAlumnoServlet',
-                                    delay: 1000
-                                }
+                               
                                 
                             }
 						},
@@ -149,11 +141,7 @@ $(document)
                                 emailAddress: {
                                     message: 'El correo no es válido'
                                 },
-                                remote: {
-                                    message: 'El correo ya existe',
-                                    url: 'validaEmailAlumnoServlet',
-                                    delay: 1000
-                                }
+                                
                             }
 						},
 						fechaNacimiento:{
@@ -162,11 +150,7 @@ $(document)
                                 notEmpty: {
                                     message: 'La fecha de nacimiento es requerida'
                                 },
-                                remote: {
-                                    message: 'El alumno debe ser mayor de edad',
-                                    url: 'validaFechaNacimientoAlumnoServlet',
-                                    delay: 1000
-                                }
+                               
                             }
 						},
 						pais:{
